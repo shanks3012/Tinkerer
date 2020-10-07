@@ -8,7 +8,7 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 @NoArgsConstructor
-public class Pull_Request {
+public class Issue {
     @JsonProperty
     private String url;
     @JsonProperty
@@ -17,12 +17,4 @@ public class Pull_Request {
     @JsonProperty
     private String title;
     //PR Review comment
-    @JsonProperty
-    private String body;
-    //Url to single review comment
-    @JsonProperty
-    private String review_comment_url;
-    //Contains Repo information (if tagging story with repo name to distinguish events across multiple repos)
-    @JsonProperty
-    private Head head;
 }

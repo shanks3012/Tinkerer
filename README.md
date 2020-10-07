@@ -27,7 +27,5 @@ Add your secret to application.properties by modifying the github.hook.prcomment
 
 Customizing the events:
 To add/modify what data is received in the push event, see:
-https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/webhook-events-and-payloads#pull_request_review_comment
-
-There is a TON of info in the request
+https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/webhook-events-and-payloads#issue_comment
 

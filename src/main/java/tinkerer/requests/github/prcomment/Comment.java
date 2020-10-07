@@ -8,8 +8,10 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 @NoArgsConstructor
-public class Repo {
-    //TODO: There are other repo objects in the payload. Might allow removal of head object. Check later.
+public class Comment {
     @JsonProperty
-    private String name;
+    private String url;
+    //The comment itself
+    @JsonProperty
+    private String body;
 }
