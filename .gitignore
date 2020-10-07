@@ -1,0 +1,13 @@
+/build/
+bin/
+.gradle/
+/bin/
+target/
+
+*.jar
+.idea*
+*.iml
+
+gradle/wrapper
+gradlew.bat
+gradlew
