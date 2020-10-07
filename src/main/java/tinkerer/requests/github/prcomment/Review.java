@@ -8,17 +8,13 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 @NoArgsConstructor
-public class PrCommentEvent {
+public class Review {
     @JsonProperty
-    private String action;
+    private String body;
     @JsonProperty
-    private Changes changes;
+    private String state;
     @JsonProperty
-    private Issue issue;
+    private String html_url;
     @JsonProperty
-    private Repository repository;
-    @JsonProperty
-    private Comment comment;
-    @JsonProperty
-    private Review review;
+    private String pull_request_url;
 }
